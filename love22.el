@@ -216,7 +216,7 @@ I believe that this list is exhaustive.")
 
 (defvar love22-es-s-exceptions
   '("shoes" "horseshoes")
-  "*Words ending in "\es\" that look like "\es\" was added to make the plural,
+  "*Words ending in \"es\" that look like \"es\" was added to make the plural,
 but actually only \"s\" was.  In other words, these words have some member of
 love22-es-plural-suffixes immediately before the \"es\".")
 
