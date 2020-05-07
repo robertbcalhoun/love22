@@ -569,8 +569,7 @@ Doesn't return a useful value."
 	   (let* ((permit-continuation
 		   (not (or
 			 ;; end of sentence
-			 ;; FIXME: sentence-end is undefined and return nil; comment out for now
-			 ;; (looking-at sentence-end)
+			 (looking-at (sentence-end))
 			 ;; two newlines before next word
 			 (looking-at "\\W*\n\\W*\n")
 			 ;; It would be nice to permit this if the whole quote
