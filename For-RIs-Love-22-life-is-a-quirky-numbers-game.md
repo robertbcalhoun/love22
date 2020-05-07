@@ -1,10 +1,10 @@
-https://www.providencejournal.com/news/20190720/mark-patinkin-for-ris-love-22-life-is-quirky-numbers-game
+From ["For R.I.'s Love 22, Life is a Quirky Numbers Game"](https://www.providencejournal.com/news/20190720/mark-patinkin-for-ris-love-22-life-is-quirky-numbers-game), appearing in the July 20, 2019 edition of the [Providence Journal](https://www.providencejournal.com).
 
-By Mark Patinkin 
+By Mark Patinkin<br/> 
 Journal Columnist 
 
-Posted Jul 20, 2019 at 3:15 PM
-Updated Jul 20, 2019 at 3:17 PM
+_Posted Jul 20, 2019 at 3:15 PM_<br/>
+_Updated Jul 20, 2019 at 3:17 PM_
    
 Love 22, one of R.I.’s most colorful political characters, is still going strong at 82, and casting his Uncle Sam hat into the ring in the 2020 presidential race.
 

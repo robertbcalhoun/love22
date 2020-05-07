@@ -2,15 +2,13 @@ LOVE22.EL
 ===========
 Emacs script for writing in the style of Love 22
 
-Michael D. Ernst <mernst@theory.lcs.mit.edu>
-
-10/2/1990
-
-last modified 10/18/1990
+Michael D. Ernst `<mernst@theory.lcs.mit.edu>`<br/>
+10/2/1990<br/>
+last modified 10/18/1990<br/>
 
 
-Description of love22.el
-========================
+Description
+===========
 
 
  This file helps you write text in the style of Love 22, a peripatetic
@@ -70,7 +68,3 @@ Description of love22.el
     considerably less than that of love22-buffer, but it operates in real
     time.)
 ```
-
-
-
-See [this interview with Love 22](https://www.providencejournal.com/news/20190720/mark-patinkin-for-ris-love-22-life-is-quirky-numbers-game) for why you need this script
