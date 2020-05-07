@@ -37,9 +37,13 @@ Description
  You can get $22 bills, a copy of Love 22's platform, and other fun stuff
  by sending a self-addressed stamped envelope (with a small donation, if
  you're feeling generous; I sent $2.22 last time) to
-    Love 22
-    PO Box 4022
-    Key West, FL  33040
+
+ Love 22<br/>
+ ~~PO Box 4022~~<br/>
+~~Key West, FL 33040~~<br/>
+Golden Years Assisted Living Community<br/>
+118 High St<br/>
+Westerly, RI 02891
 
  The commands of interest are:
 ``` 
@@ -68,3 +72,43 @@ Description
     considerably less than that of love22-buffer, but it operates in real
     time.)
 ```
+
+
+How to use this file
+====================
+
+Save this file as `love22.el` somewhere on your load-path.
+
+_Don't byte-compile this file; it only works interpreted._
+
+Add to your `.emacs` file:
+```
+(autoload 'show-abc-chart "love22"
+	  "Show the ABC chart in the *Help* window." t)
+(autoload 'abc-chart-word "love22"
+	  "Compute and display the ABC chart value of the word at point." t)
+(autoload 'abc-chart-region "love22"
+	  "Compute and display the ABC chart value of the current region." t)
+(autoload 'love22-buffer "love22"
+	  "Process a buffer to look like Love22 wrote it." t)
+(autoload 'love22-region "love22"
+	  "Process a region to look like Love22 wrote it." t)
+(autoload 'love22-mode "love22"
+	  "Minor mode for writing Love22 text." t)
+```
+If `love22.el` is not on your load-path, you may need to specify a full
+path for the filename instead of just "love22" (eg `~/emacs/love22`, if
+`~/emacs/` isn't on your load-path but that's where love22.el is).
+
+Now in future editing sessions you'll be ready to use the love22 
+commands (for instance, `M-x love22-region`).  To use them now, first do
+```
+M-x load-file RET love22.el
+```
+Changing values in the "Global variables" section modifies the behavior
+of the program; the experienced user may wish to play with these.
+
+Yes, you could use this as a filter from the command line by running emacs
+in batch mode.  This exercise is left to the reader.
+
+Enjoy!
