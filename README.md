@@ -76,10 +76,9 @@ Westerly, RI 02891
 
 How to use this file
 ====================
-
-Save this file as `love22.el` somewhere on your load-path.
-
 _Don't byte-compile this file; it only works interpreted._
+
+Save `love22.el` somewhere on your emacs load-path, e.g. `~/.emacs.d` .
 
 Add to your `.emacs` file:
 ```
@@ -96,6 +95,8 @@ Add to your `.emacs` file:
 (autoload 'love22-mode "love22"
 	  "Minor mode for writing Love22 text." t)
 ```
+Then restart emacs.
+
 If `love22.el` is not on your load-path, you may need to specify a full
 path for the filename instead of just "love22" (eg `~/emacs/love22`, if
 `~/emacs/` isn't on your load-path but that's where love22.el is).
